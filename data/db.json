@@ -1,0 +1,6 @@
+{
+  "items": [
+    { "id": 1, "name": "Task 1", "checked": false },
+    { "id": 2, "name": "Task 2", "checked": true }
+  ]
+}

@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+ .nav-item span{
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.staricon {
+    font-size: 40px; /* Responsive size */
+    color: #6a1b9a; /* Purple color */
+    transition: transform 0.3s ease;
+   margin: 10px 10px;
+  }
+
+  .Navbar{
+     background-color:#113e42 !important
+  }
+  
+  .staricon:hover {
+    transform: scale(1.2); /* Optional: Hover effect */
+  }
+
+
+  .animateIcon {
+    font-size: 1.5rem;
+    animation: bounce 1s ease-in-out infinite, rotate 2s ease-in-out infinite; /* Bounce and rotate animations */
+    color: rgb(0, 85, 255);
+    font-size: 32px !important;
+  }
+  
+  /* Bounce effect for icons */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Rotation effect for icons */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(180deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Smooth fade-in animation for the content */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .content {
+    animation: fadeIn 1.5s ease-out; /* Content fades in smoothly */
+  }
+  
+  .pythonWhy li {
+    margin-bottom: 10px;
+  }
+  
+
+
+  .nav-icon {
+    font-size: 30px;
+    margin-right: 10px;
+    color: rgb(0, 81, 232)  !important;
+    display: inline-block;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  /* Bouncing Animation */
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-10px);
+    }
+  }
+  
+  /* Blinking Animation */
+  @keyframes blink {
+    0%, 100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.5;
+    }
+  }
+  
+  /* Rotating Animation */
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+  /* Flipping Animation */
+  @keyframes flip {
+    0% {
+      transform: rotateY(0deg);
+    }
+    50% {
+      transform: rotateY(180deg);
+    }
+    100% {
+      transform: rotateY(360deg);
+    }
+  }
+  
+  /* Applying the Combined Animations to Icon */
+  .nav-icon {
+    animation: 
+      bounce 1s ease-in-out infinite, 
+      blink 1s ease-in-out infinite, 
+      rotate 3s linear infinite,
+      flip 2s ease-in-out infinite;
+  }
+  
+  /* Hover Effect (Optional) */
+  .nav-icon:hover {
+    transform: scale(1.1); /* Slight scaling effect on hover */
+  }
+  
