@@ -10,7 +10,7 @@ import { TbCertificate } from "react-icons/tb";
 const Education = () => {
   return (
     <div className="container my-5">
-      <div className="row position-relative" data-aos="fade-down-left">
+      <div className="row position-relative" data-aos="flip-left">
         <div className="col-md-6">
         <div className="height"></div>  {/* Vertical line between the two columns */}
           <h3 className="text-primary"> <FaGraduationCap className="text-success"  style={{fontSize:"50px",color:"white"}}/>Education</h3>
