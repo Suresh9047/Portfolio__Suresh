@@ -42,16 +42,7 @@ function Navbars() {
                 <FaCertificate className="animateIcon" style={{ marginRight: '8px', fontSize: '1.5rem' }} />
                 <span>Certificates</span>
               </Nav.Link>
-          <Nav.Link
-  href="/Suresh%20E%20-%20Resume.pdf"  // URL-encoded path
-  className="nav-item text-white fs-5 d-flex align-items-center me-4"
-  download
->
-  <FaDownload className="animateIcon" style={{ marginRight: '8px', fontSize: '1.5rem' }} />
-  <span>Download CV</span>
-  
-</Nav.Link>
-
+       
             </Nav>
           </Navbar.Collapse>
         </Container>
