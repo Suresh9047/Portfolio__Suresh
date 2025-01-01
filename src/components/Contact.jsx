@@ -7,19 +7,19 @@ function Contact() {
     <section className="contact-section py-5">
       <Container>
         <h2
-          className="text-center mb-4"
+          className="text-center fs-2 text-primary mb-4"
           data-aos="fade-up"
           data-aos-delay="100"
-        >
+        > 
           Get in Touch
         </h2>
         <Row>
           <Col md={6} >
-            <p className="text-primary">
+            <p className="text-primary" style={{fontWeight:"800"}}>
               Feel free to reach out! I'm always open to discussing new projects
               or opportunities.
             </p>
-            <ul className="list-unstyled text-black">
+            <ul className="list-unstyled text-white">
               <li>
                 <strong>Email:</strong> suresh904753@gmail.com
               </li>
