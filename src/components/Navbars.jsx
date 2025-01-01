@@ -3,25 +3,26 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Homenav from '../components/assests/images/homes.png';
-import { FaBriefcase, FaTools, FaUser, FaCertificate } from 'react-icons/fa';
-import './css/Navbar.css';
-
+import { FaBriefcase, FaTools, FaUser, FaCertificate, FaDownload } from 'react-icons/fa';
 
 function Navbars() {
   return (
     <>
       <Navbar bg="" variant="primary" sticky="top" expand="lg" className="Navbar">
         <Container>
-         <Nav.Link href='about'> <img
-            className="nav-icon"
-            style={{ width: '180px', height: '80px', objectFit: 'contain', marginRight: '15px' }}
-            src={Homenav}
-            alt="Home"
-          /></Nav.Link>
-         <Nav.Link href='#about'><h1 className="fs-1 my-0 av-icon text-primary" style={{ fontWeight: '1000' }}>
-            Suresh
-          </h1>
-          </Nav.Link> 
+          <Nav.Link href='about'>
+            <img
+              className="nav-icon"
+              style={{ width: '180px', height: '80px', objectFit: 'contain', marginRight: '15px' }}
+              src={Homenav}
+              alt="Home"
+            />
+          </Nav.Link>
+          <Nav.Link href='#about'>
+            <h1 className="fs-1 my-0 av-icon text-primary" style={{ fontWeight: '1000' }}>
+              Suresh
+            </h1>
+          </Nav.Link>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
@@ -41,6 +42,15 @@ function Navbars() {
                 <FaCertificate className="animateIcon" style={{ marginRight: '8px', fontSize: '1.5rem' }} />
                 <span>Certificates</span>
               </Nav.Link>
+              <Nav.Link
+                href="/Suresh E - Resume.pdf"  // Correct path to the public folder
+                className="nav-item text-white fs-5 d-flex align-items-center me-4"
+                download
+              >
+                <FaDownload className="animateIcon" style={{ marginRight: '8px', fontSize: '1.5rem' }} />
+                <span>Download CV</span>
+              </Nav.Link>
+
             </Nav>
           </Navbar.Collapse>
         </Container>
