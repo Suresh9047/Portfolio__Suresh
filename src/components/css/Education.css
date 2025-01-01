@@ -82,3 +82,15 @@ hr{
   font-weight: 800;
   margin-left: 10px;
 }
+
+.techused{
+  font-weight: 800px !important;
+  content: "";
+
+}
+.techused::after{
+  content: " ";
+  width: 25px;
+  background-color: bisque;
+  
+}

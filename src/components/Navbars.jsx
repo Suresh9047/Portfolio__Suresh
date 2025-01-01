@@ -6,6 +6,7 @@ import Homenav from '../components/assests/images/homes.png';
 import { FaBriefcase, FaTools, FaUser, FaCertificate } from 'react-icons/fa';
 import './css/Navbar.css';
 
+
 function Navbars() {
   return (
     <>

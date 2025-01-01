@@ -4,6 +4,7 @@ import About from '../components/About';
 import ImageSlider from '../components/ImageSlider';
 import Projects from '../components/Projects';
 import Education from '../components/Education';
+import Contact from '../components/Contact'
 import './css/Home.css';
 
 const HomePage = () => {
@@ -41,6 +42,9 @@ const HomePage = () => {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div className="Contact">
+       <Contact/>
       </div>
 
       {/* Social Icons */}

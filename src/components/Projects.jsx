@@ -10,6 +10,7 @@ import { MdOutlineStarBorderPurple500 } from 'react-icons/md';
 // import { MdOutlineStarBorderPurple500 } from 'react-icons/md';
 
 
+
 const projects = [
   {
     title: "E-Commerce Website(Rushik Organic)",
@@ -73,19 +74,20 @@ const Projects = () => {
       <h1 className="text-center mb-4 text-white project-titile" style={{fontSize:"32px"}}> <GrProjects className="text-success" style={{fontSize:"50px"}}/>My Projects</h1>
       <div className="row">
         {projects.map((project, index) => (
-          <div key={index} className="col-md-4 col-sm-8 col-lg-4 mb-4">
+          <div key={index} className="col-md-4 col-sm-8 col-lg-4 mb-4" data-aos="flip-left">
             <div className="card project-card shadow-sm">
               <div className="card-body">
                 <img src={project.image} className="img-fluid responsive-img"alt="web" />
                 <h5 className="card-title text-primary my-3">{project.title}</h5>
                 <p className="card-text"> <MdOutlineStarBorderPurple500 className="text-warning"/>{project.description}</p>
+
                 {project.fullstack && (
                   <p className="text-danger" style={{fontSize:"15px",fontWeight:'1000px'}}> 
                     {project.icon}
                     {project.fullstack}
                   </p>
                 )}
-                <h1 className="fs-5 text-primary">Technologies Used:</h1>
+                <h1 className="fs-5 text-primary techused" style={{fontWeight:"800px"}}>Tech Used:</h1> 
                 <ul className="project-ul">
                   {project.tech && (
                     <li className="list-group-item d-flex align-items-center fs-7 text-primary">
@@ -136,5 +138,7 @@ const Projects = () => {
     </div>
   );
 };
+
+
 
 export default Projects;

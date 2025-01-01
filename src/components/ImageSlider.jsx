@@ -4,7 +4,6 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import './css/ImageSlider.css'
 import { MdOutlineStarBorderPurple500 } from 'react-icons/md';
-
 // Import images
 import js from '../components/assests/images/js.png';
 import react from '../components/assests/images/react.png';
@@ -14,7 +13,6 @@ import django from '../components/assests/images/django1.png';
 import python from '../components/assests/images/python1.png';
 import mysql from '../components/assests/images/myswl1.png';
 import githup from '../components/assests/images/githup.png';
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -27,7 +25,7 @@ const ImageSlider = () => {
     { name: 'React', image: react },
     { name: 'HTML', image: html },
     { name: 'CSS', image: css },
-    { name: 'Githup', image: githup },
+    { name: 'GitHup', image: githup },
   ];
 
   const settings = {

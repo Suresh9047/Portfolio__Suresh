@@ -1,0 +1,23 @@
+.contact-section {
+    background: #f8f9fa;
+  }
+  
+  .contact-section h2 {
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .contact-section .lead {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .contact-section ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .contact-section li {
+    margin-bottom: 0.5rem;
+  }
+  

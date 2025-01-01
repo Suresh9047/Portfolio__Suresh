@@ -5,15 +5,16 @@ import { MdOutlineStarBorderPurple500 } from 'react-icons/md';
 import './css/About.css';
 import fullstack from '../components/assests/images/dev.png';
 
+
 const About = () => {
   return (
     <div className="container">
       <div className="row" style={{ marginTop: "30px" }}>
         {/* Left Column (Text Content) */}
-        <div className="col-12 col-md-8 col-sm-6" style={{ marginTop: "60px" }}>
+        <div className="col-12 col-md-8 col-sm-6" style={{ marginTop: "60px" }} data-aos="zoom-in-up">
           <div className="devlop my-4">
             <div className="d-flex flex-column flex-sm-row align-items-center">
-              <h1 className="text-white fs-1" style={{ fontWeight: 800 }}>
+              <h1 className="text-white fs-1" style={{ fontWeight: 800 }} data-aos="zoom-in-up">
                 Hi, I'm Suresh
               </h1>
               <img
@@ -30,7 +31,7 @@ const About = () => {
             <ul className="list-group-item a-ul">
               <li className="list-group-item d-flex align-items-center fs-5 text-primary">
                 <MdOutlineStarBorderPurple500 className="text-warning me-2" />
-                I am a passionate Python Fullstack Developer.
+                I am a passionate Fullstack Developer.
               </li>
               <li className="list-group-item d-flex align-items-center fs-5 text-white">
                 <FaCheckCircle className="text-success me-2" />
