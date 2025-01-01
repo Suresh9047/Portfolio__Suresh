@@ -14,7 +14,7 @@ function Contact() {
           Get in Touch
         </h2>
         <Row>
-          <Col md={6} data-aos="fade-right">
+          <Col md={6} >
             <p className="text-primary">
               Feel free to reach out! I'm always open to discussing new projects
               or opportunities.
@@ -31,7 +31,7 @@ function Contact() {
               </li>
             </ul>
           </Col>
-          <Col md={6} data-aos="fade-left">
+          <Col md={6} >
             <Form>
               <Form.Group className="mb-3" controlId="formName">
                 <Form.Label className="text-primary">Your Name</Form.Label>
