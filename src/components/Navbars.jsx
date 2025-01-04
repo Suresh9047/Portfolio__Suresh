@@ -3,7 +3,7 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import Homenav from '../components/assests/images/homes.png';
-import { FaBriefcase, FaTools, FaUser, FaCertificate, FaDownload } from 'react-icons/fa';
+import { FaBriefcase, FaTools, FaUser, FaCertificate } from 'react-icons/fa';
 
 function Navbars() {
   return (
@@ -42,7 +42,6 @@ function Navbars() {
                 <FaCertificate className="animateIcon" style={{ marginRight: '8px', fontSize: '1.5rem' }} />
                 <span>Certificates</span>
               </Nav.Link>
-       
             </Nav>
           </Navbar.Collapse>
         </Container>

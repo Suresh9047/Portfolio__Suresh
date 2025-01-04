@@ -6,6 +6,7 @@ import Projects from '../components/Projects';
 import Education from '../components/Education';
 import Contact from '../components/Contact'
 import './css/Home.css';
+import SelfIntro from '../components/SelfIntro';
 
 const HomePage = () => {
   const [showScroll, setShowScroll] = useState(false);
@@ -42,6 +43,9 @@ const HomePage = () => {
       </div>
       <div id="projects">
         <Projects />
+      </div>
+      <div className="selfintro">
+        <SelfIntro/>
       </div>
       <div className="Contact">
        <Contact/>
