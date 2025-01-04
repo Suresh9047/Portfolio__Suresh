@@ -1,6 +1,7 @@
 import React from 'react';
-import selfintro from './assests/Videos/SlefIntro.mp4';
-import './css/About.css'
+import './css/About.css';
+import selfintro from '../components/assests/Videos/SelfIntro.mp4'
+
 
 const SelfIntro = () => {
   return (
@@ -12,8 +13,7 @@ const SelfIntro = () => {
         controls
         style={{ borderRadius: '10px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)' }}
       >
-        <source src={selfintro} type="video/mp4" />
-       
+       <source src={selfintro} type="video/mp4" />
       </video>
     </div>
   );
